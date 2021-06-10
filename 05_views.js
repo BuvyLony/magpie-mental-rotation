@@ -23,15 +23,8 @@ const intro = magpieViews.view_generator("intro", {
   trials: 1,
   name: 'intro',
   // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
-  text: `This is a sample introduction view.
-            <br />
-            <br />
-            The introduction view welcomes the participant and gives general information
-            about the experiment. You are in the <strong>${coin}</strong> group.
-            <br />
-            <br />
-            This is a minimal experiment with one forced choice view. It can serve as a starting point for programming your own experiment.`,
-  buttonText: 'begin the experiment'
+  text: "Thank you for participating in this experiment.",
+  buttonText: 'Begin the experiment'
 });
 
 // For most tasks, you need instructions views
@@ -39,11 +32,19 @@ const instructions = magpieViews.view_generator("instructions", {
   trials: 1,
   name: 'instructions',
   title: 'General Instructions',
-  text: `This is a sample instructions view.
+  text: `You will see pictures showing pairs of geometrical objects. Your task is to compare both objects in the pair and decide whether they are the same or different. You will need press button "F" if you think the objects are the same, and "J" if you think they are different. Please try to answer as quick and accurately as possible!
             <br />
             <br />
-            Tell your participants what they are to do here.`,
+            We will practice this first.`,
   buttonText: 'go to trials'
+});
+
+const begin = magpieViews.view_generator("begin", {
+  trials: 1,
+  name: 'begin',
+  // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
+  text: "Now the main task starts.",
+  buttonText: 'Begin the main task'
 });
 
 
@@ -115,6 +116,31 @@ const forced_choice_2A = magpieViews.view_generator("forced_choice", {
   // }
 });
 
+
+
 // There are many more templates available:
 // forced_choice, slider_rating, dropdown_choice, testbox_input, rating_scale, image_selection, sentence_choice,
 // key_press, self_paced_reading and self_paced_reading_rating_scale
+
+
+const key_press_main = magpieViews.view_generator("key_press", {
+
+  trials: trial_info.key_press_trials.length,
+  name: "key_press",
+  data: _.shuffle(trial_info.key_press_trials),
+  pause: 250,
+  hook: {
+       after_response_enabled: check_response
+   }
+});
+
+const key_press_practice = magpieViews.view_generator("key_press", {
+
+  trials: practice_trials.key_press_trials.length,
+  name: "key_press",
+  data: _.shuffle(practice_trials.key_press_trials),
+  pause: 250,
+  hook: {
+       after_response_enabled: check_response
+   }
+});
