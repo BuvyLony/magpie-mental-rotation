@@ -53,7 +53,7 @@ const post_test = magpieViews.view_generator("post_test", {
   trials: 1,
   name: 'post_test',
   title: 'Additional information',
-  text: 'Answering the following questions is optional, but your answers will help us analyze our results.'
+  text: 'Answering the following questions is optional, but your answers will help us analyze our results.',
 
   // You can change much of what appears here, e.g., to present it in a different language, as follows:
   buttonText: 'Weiter',

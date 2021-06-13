@@ -30,6 +30,7 @@ $("document").ready(function() {
             // "debug" and "directLink"
             // As well as "MTurk", "MTurkSandbox" and "Prolific"
             deployMethod: "directLink",
+            //deployMethod: "debug",
             contact_email: "aohnesorge@uos.de",
             prolificURL: "https://app.prolific.ac/submissions/complete?cc=SAMPLE1234"
         },

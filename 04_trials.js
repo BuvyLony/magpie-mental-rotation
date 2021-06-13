@@ -1,7 +1,7 @@
 // In this file you can specify the trial data for your experiment
 
 const practice_trials = {
-  key_press_trials = [
+  key_press_trials: [
     {
         question: "Are the objects the same?",
         picture: 'mental_rotation_images/3_50_different.jpg',
@@ -11,7 +11,7 @@ const practice_trials = {
         key1: 'f',
         key2: 'j',
         f: 'same',
-        j: 'different',
+        j: 'different'
     },
     {
         question: "Are the objects the same?",
@@ -22,7 +22,7 @@ const practice_trials = {
         key1: 'f',
         key2: 'j',
         f: 'same',
-        j: 'different',
+        j: 'different'
     },
     {
         question: "Are the objects the same?",
@@ -33,7 +33,7 @@ const practice_trials = {
         key1: 'f',
         key2: 'j',
         f: 'same',
-        j: 'different',
+        j: 'different'
     },
     {
         question: "Are the objects the same?",
@@ -44,7 +44,7 @@ const practice_trials = {
         key1: 'f',
         key2: 'j',
         f: 'same',
-        j: 'different',
+        j: 'different'
     },
     {
         question: "Are the objects the same?",
@@ -55,7 +55,7 @@ const practice_trials = {
         key1: 'f',
         key2: 'j',
         f: 'same',
-        j: 'different',
+        j: 'different'
     },
     {
         question: "Are the objects the same?",
@@ -66,7 +66,7 @@ const practice_trials = {
         key1: 'f',
         key2: 'j',
         f: 'same',
-        j: 'different',
+        j: 'different'
     },
     {
         question: "Are the objects the same?",
@@ -77,7 +77,7 @@ const practice_trials = {
         key1: 'f',
         key2: 'j',
         f: 'same',
-        j: 'different',
+        j: 'different'
     },
     {
         question: "Are the objects the same?",
@@ -88,7 +88,7 @@ const practice_trials = {
         key1: 'f',
         key2: 'j',
         f: 'same',
-        j: 'different',
+        j: 'different'
     },
     {
         question: "Are the objects the same?",
@@ -99,7 +99,7 @@ const practice_trials = {
         key1: 'f',
         key2: 'j',
         f: 'same',
-        j: 'different',
+        j: 'different'
     },
     {
         question: "Are the objects the same?",
@@ -110,7 +110,7 @@ const practice_trials = {
         key1: 'f',
         key2: 'j',
         f: 'same',
-        j: 'different',
+        j: 'different'
     },
     {
         question: "Are the objects the same?",
@@ -121,7 +121,7 @@ const practice_trials = {
         key1: 'f',
         key2: 'j',
         f: 'same',
-        j: 'different',
+        j: 'different'
     },
     {
         question: "Are the objects the same?",
@@ -132,14 +132,14 @@ const practice_trials = {
         key1: 'f',
         key2: 'j',
         f: 'same',
-        j: 'different',
+        j: 'different'
     },
   ],
 };
 
 
 const trial_info = {
-  key_press_trials = [
+  key_press_trials: [
       {
           question: "Are the objects the same?",
           picture: 'mental_rotation_images/1_50_different.jpg',
@@ -149,7 +149,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -160,7 +160,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -171,7 +171,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -182,7 +182,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -193,7 +193,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -204,7 +204,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -215,7 +215,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -226,7 +226,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -237,7 +237,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -248,7 +248,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -259,7 +259,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -270,7 +270,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -281,7 +281,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -292,7 +292,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -303,7 +303,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -314,7 +314,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -325,7 +325,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -336,7 +336,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -347,7 +347,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -358,7 +358,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -369,7 +369,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -380,7 +380,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -391,7 +391,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -402,7 +402,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -413,7 +413,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -424,7 +424,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -435,7 +435,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -446,7 +446,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -457,7 +457,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -468,7 +468,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -479,7 +479,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -490,7 +490,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -501,7 +501,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -512,7 +512,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -523,7 +523,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -534,7 +534,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -545,7 +545,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -556,7 +556,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -567,7 +567,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -578,7 +578,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -589,7 +589,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -600,7 +600,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -611,7 +611,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -622,7 +622,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -633,7 +633,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -644,7 +644,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -655,7 +655,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
       {
           question: "Are the objects the same?",
@@ -666,7 +666,7 @@ const trial_info = {
           key1: 'f',
           key2: 'j',
           f: 'same',
-          j: 'different',
+          j: 'different'
       },
     ],
   };
