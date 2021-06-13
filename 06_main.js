@@ -20,7 +20,7 @@ $("document").ready(function() {
             key_press_practice,
             key_press_main,
             post_test,
-            thanks,
+            thanks
         ],
         // Here, you can specify all information for the deployment
         deploy: {
@@ -30,14 +30,15 @@ $("document").ready(function() {
             // "debug" and "directLink"
             // As well as "MTurk", "MTurkSandbox" and "Prolific"
             deployMethod: "directLink",
-            contact_email: "YOUREMAIL@wherelifeisgreat.you",
+            contact_email: "aohnesorge@uos.de",
             prolificURL: "https://app.prolific.ac/submissions/complete?cc=SAMPLE1234"
         },
         // Here, you can specify how the progress bar should look like
         progress_bar: {
             in: [
                 // list the view-names of the views for which you want a progress bar
-                forced_choice_2A.name,
+                key_press_practice,
+                key_press_main
             ],
              // Possible styles are "default", "separate" and "chunks"
             style: "separate",

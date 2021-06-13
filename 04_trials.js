@@ -46,7 +46,6 @@ const practice_trials = {
         f: 'same',
         j: 'different',
     },
-
     {
         question: "Are the objects the same?",
         picture: 'mental_rotation_images/4_50_different.jpg',
@@ -91,7 +90,6 @@ const practice_trials = {
         f: 'same',
         j: 'different',
     },
-
     {
         question: "Are the objects the same?",
         picture: 'mental_rotation_images/5_50_different.jpg',
@@ -140,7 +138,6 @@ const practice_trials = {
 };
 
 
-
 const trial_info = {
   key_press_trials = [
       {
@@ -187,7 +184,6 @@ const trial_info = {
           f: 'same',
           j: 'different',
       },
-
       {
           question: "Are the objects the same?",
           picture: 'mental_rotation_images/2_50_different.jpg',
@@ -232,7 +228,6 @@ const trial_info = {
           f: 'same',
           j: 'different',
       },
-
       {
           question: "Are the objects the same?",
           picture: 'mental_rotation_images/6_50_different.jpg',
@@ -277,7 +272,6 @@ const trial_info = {
           f: 'same',
           j: 'different',
       },
-
       {
           question: "Are the objects the same?",
           picture: 'mental_rotation_images/7_50_different.jpg',
@@ -322,7 +316,6 @@ const trial_info = {
           f: 'same',
           j: 'different',
       },
-
       {
           question: "Are the objects the same?",
           picture: 'mental_rotation_images/8_50_different.jpg',
@@ -367,7 +360,6 @@ const trial_info = {
           f: 'same',
           j: 'different',
       },
-
       {
           question: "Are the objects the same?",
           picture: 'mental_rotation_images/9_50_different.jpg',
@@ -412,7 +404,6 @@ const trial_info = {
           f: 'same',
           j: 'different',
       },
-
       {
           question: "Are the objects the same?",
           picture: 'mental_rotation_images/10_50_different.jpg',
@@ -457,7 +448,6 @@ const trial_info = {
           f: 'same',
           j: 'different',
       },
-
       {
           question: "Are the objects the same?",
           picture: 'mental_rotation_images/11_50_different.jpg',
@@ -502,7 +492,6 @@ const trial_info = {
           f: 'same',
           j: 'different',
       },
-
       {
           question: "Are the objects the same?",
           picture: 'mental_rotation_images/12_50_different.jpg',
@@ -547,7 +536,6 @@ const trial_info = {
           f: 'same',
           j: 'different',
       },
-
       {
           question: "Are the objects the same?",
           picture: 'mental_rotation_images/13_50_different.jpg',
@@ -592,7 +580,6 @@ const trial_info = {
           f: 'same',
           j: 'different',
       },
-
       {
           question: "Are the objects the same?",
           picture: 'mental_rotation_images/14_50_different.jpg',
@@ -681,5 +668,5 @@ const trial_info = {
           f: 'same',
           j: 'different',
       },
-  ],
-};
+    ],
+  };
